@@ -13,7 +13,7 @@ driver = webdriver.Chrome(PATH)
 driver.set_window_size(1254,1047)
 driver.get("https://www.linkedin.com")
 driver.find_element_by_id("session_key").send_keys("menon.or.adithya@gmail.com")
-driver.find_element_by_id("session_password").send_keys("hoTJ6ihV^o9")
+driver.find_element_by_id("session_password").send_keys("")
 driver.find_element_by_css_selector(".sign-in-form__submit-button").click()
 
 
