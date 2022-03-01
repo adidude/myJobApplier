@@ -11,7 +11,7 @@ driver.set_window_size(1254,1047)
 driver.get("https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2F%3Ff_AL%3Dtrue%26geoId%3D101165590%26keywords%3Dgraduate%2520software%2520engineer%26location%3DUnited%2520Kingdom%26sortBy%3DR&trk=public_jobs_nav-header-signin")
 
 driver.find_element_by_id("username").send_keys("menon.or.adithya@gmail.com")
-driver.find_element_by_id("password").send_keys("hoTJ6ihV^o9")
+driver.find_element_by_id("password").send_keys("")
 # Click log in
 driver.find_element_by_class_name("btn__primary--large").click()
 
